@@ -248,6 +248,7 @@ export default function AuthPage() {
         <section className="relative overflow-hidden premium-panel rounded-[2rem] border border-orange-100 bg-white p-8 shadow-sm md:p-10"><PawTrail className="mb-6" size="sm" />
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#f27128]">Account</p>
           <h1 className="mt-3 text-4xl font-black text-slate-900">{t('nav.account') as string}</h1>
+          <p>o pula belita</p>
           <p className="mt-4 text-slate-600">{t('auth.loggedInAs') as string}: <span className="font-semibold text-slate-900">{user.name}</span></p>
           <div className="mt-8 grid gap-4 rounded-[1.5rem] border border-orange-100 bg-[#fffaf6] p-5 md:grid-cols-2">
             <Info label={t('auth.email') as string} value={user.email} />
